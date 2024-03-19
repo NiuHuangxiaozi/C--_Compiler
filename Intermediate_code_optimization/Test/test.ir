@@ -1,0 +1,5 @@
+FUNCTION main :
+t1 := #1
+READ &t1
+RETURN #0
+
