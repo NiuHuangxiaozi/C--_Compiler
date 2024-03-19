@@ -1,0 +1,15 @@
+struct {
+	int a;
+	int b;
+}
+struct Complex 
+	int a;
+	int b;
+}
+
+struct Primary {
+	ii a;
+}
+int main() {
+	return 0;
+}
