@@ -1,0 +1,24 @@
+
+
+
+
+
+int f(int i)
+{
+   return 3;
+}
+struct pos
+{
+  int x;
+};
+
+struct pos2
+{
+  struct pos  k;
+};
+int main()
+{
+  struct pos2 g;
+  int a[12];
+  int c=a[f(2)+1];
+}

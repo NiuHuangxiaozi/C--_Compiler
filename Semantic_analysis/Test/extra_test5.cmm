@@ -1,0 +1,22 @@
+
+
+
+
+
+
+int f()
+{
+  return 1;
+}
+struct pos
+{
+  int x;
+};
+int main()
+{
+  int k[10];
+  float a;
+  int b;
+  struct pos b;
+  int c=b*3+f()/3.0;
+}

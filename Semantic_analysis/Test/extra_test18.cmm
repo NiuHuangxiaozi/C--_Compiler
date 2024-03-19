@@ -1,0 +1,16 @@
+
+
+
+
+
+int func(float a, float z,int l)
+{
+
+
+}
+
+int main()
+{
+  int a;
+  func(1.2,a,2.2,3.4);
+}

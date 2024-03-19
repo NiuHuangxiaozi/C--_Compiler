@@ -1,0 +1,27 @@
+
+
+
+
+
+
+
+
+
+
+int f()
+{
+  return 1;
+}
+struct pos
+{
+  int x;
+  float x;
+};
+int main()
+{
+  int k[10];
+  float a;
+  int b;
+  struct pos g;
+  int c=g.x+f()*3.0;
+}

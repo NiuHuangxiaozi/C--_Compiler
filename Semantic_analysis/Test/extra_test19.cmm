@@ -1,0 +1,17 @@
+
+
+
+
+
+float f()
+{
+
+}
+
+int main()
+{
+  int k[10];
+  float a;
+  int b;
+  int c=b+f();
+}

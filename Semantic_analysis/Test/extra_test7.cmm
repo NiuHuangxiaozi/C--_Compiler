@@ -1,0 +1,24 @@
+
+
+
+
+
+
+int f()
+{
+
+}
+struct pos
+{
+  int x;
+};
+
+struct pos2
+{
+  struct pos  k;
+};
+int main()
+{
+  struct pos2 g;
+  int c=g.k.x-f();
+}

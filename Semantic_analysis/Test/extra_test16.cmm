@@ -1,0 +1,48 @@
+
+
+
+
+
+
+
+
+struct qwe{
+  float milk;
+  float cream;
+};
+
+struct MilkShake{
+  float milk;
+  float cream;
+  struct qwe s;
+};
+
+struct Spirit{
+  int bottle=2;
+  float amount;
+  struct MilkShake answer;
+};
+
+int main() {
+   int a[3][6][9];
+   int b[2][2];
+   struct Spirit s;
+   float i=a[1][1];
+   int d=a[1];
+   int h=a[1][1][1];
+   int vh=a[1];
+   a[1]=b;
+
+
+   
+   if(3>2)
+   {
+s.answer.s.cream=3.3;
+   }
+   else
+   {
+   (a+1);
+   a+b;
+   a+s;
+   }
+}

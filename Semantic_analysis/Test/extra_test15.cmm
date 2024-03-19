@@ -1,0 +1,27 @@
+
+
+
+
+
+
+struct MilkShake{
+  float milk;
+  float cream;
+};
+
+struct Spirit{
+  int bottle;
+  float amount;
+};
+
+int main() {
+   int a[3][6];
+   int b[2];
+   struct Spirit s;
+   while(1)
+   {
+   a+1;
+   a+b;
+   a+s;
+   }
+}

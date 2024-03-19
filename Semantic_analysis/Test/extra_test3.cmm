@@ -1,0 +1,15 @@
+
+
+
+int f()
+{
+  return 1;
+}
+
+int main()
+{
+  int k[10];
+  float a;
+  int b;
+  int c=b*f()/3.0;
+}
