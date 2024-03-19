@@ -1,0 +1,31 @@
+FUNCTION f :
+PARAM t1
+WRITE t1
+t3 := #0
+RETURN t3
+FUNCTION g :
+PARAM t4
+t6 := #1
+t7 := t6 * #4
+t8 := t4 + t7
+t9 := *t8
+WRITE t9
+t10 := #0
+RETURN t10
+FUNCTION main :
+DEC t11 8
+t12 := #1
+t13 := t12 * #4
+t14 := &t11 + t13
+t15 := #3
+*t14 := t15
+t17 := #1
+t18 := t17 * #4
+t19 := &t11 + t18
+t20 := *t19
+ARG t20
+t-1 := CALL f
+ARG &t11
+t-1 := CALL g
+t22 := #0
+RETURN t22
